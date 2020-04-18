@@ -1,9 +1,9 @@
 frontend:
   image: cltan8/noobreactjsapp:latest
   ports:
-    - 8087:8080
+    - 8088:80
 
 backend:
   image: cltan8/noobspringbootapp:latest
   ports:
-    - 8088:80
+    - 8087:8080
